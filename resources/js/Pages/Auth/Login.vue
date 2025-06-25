@@ -39,8 +39,14 @@ const submit = () => {
             <!-- Remember me button -->
             <div class="flex items-center justify-between mb-2">
                 <div class="flex items-center gap-2">
-                    <input type="checkbox" id="remember" v-model="form.remember" />
-                    <label for="remember" class="underline cursor-pointer">Remember me</label>
+                    <input
+                        type="checkbox"
+                        id="remember"
+                        v-model="form.remember"
+                    />
+                    <label for="remember" class="underline cursor-pointer"
+                        >Remember me</label
+                    >
                 </div>
 
                 <p class="text-slate-600">

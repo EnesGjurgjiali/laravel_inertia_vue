@@ -33,7 +33,7 @@ class AuthController extends Controller
         Auth::login($user);
 
         //Redorect 
-        return redirect()->route('dashboard')->with('success', 'Registration successful! Welcome to the dashboard.');
+        return redirect()->route('dashboard')->with('greet', 'Registration successful! Welcome to the dashboard.');
     }
 
      //Login method
